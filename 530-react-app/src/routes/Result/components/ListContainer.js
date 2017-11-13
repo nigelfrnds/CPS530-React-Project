@@ -3,7 +3,7 @@ import ListItem from './ListItem';
 
 const ListContainer = ({items}) => {
   return (
-    <div>
+    <div className="well">
       <ul>
         {
           items.map((item,index) => {
