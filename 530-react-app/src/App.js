@@ -21,8 +21,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container-fluid" style={styles.fontStyle}>
-          <div style={styles.navBar}>
+        <div style={styles.fontStyle}>
+          <div>
             <NavBar />
           </div>
           <Switch>
