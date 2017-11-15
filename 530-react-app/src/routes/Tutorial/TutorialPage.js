@@ -5,7 +5,7 @@ import { Step1, Step2, Step3, Step4 } from './constants/Steps';
 class TutorialPage extends Component {
   render() {
     return (
-      <div className="container-fluid content">
+      <div className="content">
         <div>
           <div>
             <h2>{`What We're Gonna Build`}</h2>
