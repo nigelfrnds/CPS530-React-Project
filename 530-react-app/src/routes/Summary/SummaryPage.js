@@ -8,7 +8,7 @@ class SummaryPage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid content">
         This is the SummaryPage Page.
         <button onClick={this.doSomething}>press me</button>
       </div>
