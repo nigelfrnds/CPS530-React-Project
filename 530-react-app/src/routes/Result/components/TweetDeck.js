@@ -1,8 +1,9 @@
-export const Step1 = `import React, { Component } from 'react';`;
-export const Step2 = `import Tweet from './Tweet';
-import USERS from './UserList.json';
-import DEFAULT_IMAGE from './user.png';`;
-export const Step3 = `class TweetDeck extends Component {
+import React, { Component } from 'react';
+import Tweet from './Tweet';
+import USERS from '../constants/UserList.json';
+import DEFAULT_IMAGE from './user.png';
+
+class TweetDeck extends Component {
   render() {
     return (
       <div style={styles.containerStyle}>
@@ -26,10 +27,7 @@ export const Step3 = `class TweetDeck extends Component {
   }
 }
 
-export default TweetDeck;
-`;
-
-export const Step4 = `const styles = {
+const styles = {
   containerStyle: {
     borderWidth: '1px',
     borderStyle: 'solid',
@@ -44,5 +42,5 @@ export const Step4 = `const styles = {
   }
 };
 
+
 export default TweetDeck;
-`;
