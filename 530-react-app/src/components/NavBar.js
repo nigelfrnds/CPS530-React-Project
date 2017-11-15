@@ -10,7 +10,7 @@ class NavBar extends Component {
       <nav className="navbar navbar-inverse navbar-fixed-top">
         <div>
           <div className="navbar-header">
-            <a href="/summary" className="navbar-brand">React-Project</a>
+            <Link to="/" className="navbar-brand">React-Project</Link>
           </div>
           <ul className="nav navbar-nav">
             <li style={textStyle}>

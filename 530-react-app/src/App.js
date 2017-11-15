@@ -26,7 +26,8 @@ class App extends Component {
             <NavBar />
           </div>
           <Switch>
-            <Route exact path="/summary" component={SummaryPage} />
+            <Route exact path="/" component={Home} />
+            <Route path="/summary" component={SummaryPage} />
             <Route path="/install" component={InstallPage} />
             <Route path="/tutorial" component={TutorialPage} />
             <Route path="/result" component={ResultPage} />
@@ -35,6 +36,16 @@ class App extends Component {
           </Switch>
         </div>
       </Router>
+    );
+  }
+}
+
+class Home extends Component {
+  render() {
+    return (
+      <div className="container-fluid content">
+        This is the homepage.
+      </div>
     );
   }
 }
