@@ -10,26 +10,26 @@ class NavBar extends Component {
       <nav className="navbar navbar-inverse navbar-fixed-top">
         <div>
           <div className="navbar-header">
-            <Link to="/" className="navbar-brand">React-Project</Link>
+            <a href="/" className="navbar-brand">React-Project</a>
           </div>
           <ul className="nav navbar-nav">
             <li style={textStyle}>
-              <Link to="/summary">Summary</Link>
+              <a href="/summary">Summary</a>
             </li>
             <li style={textStyle}>
-              <Link to="/install">Install</Link>
+              <a href="/install">Install</a>
             </li>
             <li style={textStyle}>
-              <Link to="/tutorial">Tutorial</Link>
+              <a href="/tutorial">Tutorial</a>
             </li>
             <li style={textStyle}>
-              <Link to="/result">Result</Link>
+              <a href="/result">Result</a>
             </li>
             <li style={textStyle}>
-              <Link to="/conclusion">Conclusion</Link>
+              <a href="/conclusion">Conclusion</a>
             </li>
             <li style={textStyle}>
-              <Link to="/credits">Credits</Link>
+              <a href="/credits">Credits</a>
             </li>
           </ul>
         </div>

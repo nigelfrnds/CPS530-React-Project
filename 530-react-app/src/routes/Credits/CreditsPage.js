@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CreditsPage extends Component {
   render() {
     return (
-      <div className="container-fluid content">
+      <div className="content">
         This is the CreditsPage.
       </div>
     );
