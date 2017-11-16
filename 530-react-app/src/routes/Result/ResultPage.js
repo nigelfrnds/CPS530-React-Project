@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import GroceryList from './components/GroceryList';
 import TweetDeck from './components/TweetDeck';
 
 class ResultPage extends Component {
@@ -14,10 +13,5 @@ class ResultPage extends Component {
     );
   }
 }
-
-const styles = {
-  containerStyle: {
-  },
-};
 
 export { ResultPage };

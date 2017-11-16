@@ -2,21 +2,23 @@ import React, { Component } from 'react';
 
 class Tweet extends Component {
   render() {
+    const { image, user } = this.props;
+    const { name, handle, tweet }  = user;
     return (
       <div style={styles.containerStyle}>
         <div style={styles.headerContainerStyle}>
           <span>
-            <img src={this.props.image} style={styles.imageStyle}/>
+            <img src={image} style={styles.imageStyle} alt={'Profile Pic'}/>
             <span style={styles.userContainerStyle}>
               <span>
-                <b>{`${this.props.user.name} `}</b>
-                {` @${this.props.user.handle}`}
+                <b>{name + ' '}</b>
+                {'@' + handle}
               </span>
             </span>
           </span>
         </div>
         <div style={styles.tweetContainerStyle}>
-          {this.props.user.tweet}
+          {tweet}
         </div>
       </div>
     );

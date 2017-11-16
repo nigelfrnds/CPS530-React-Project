@@ -32,14 +32,13 @@ const styles = {
     borderWidth: '1px',
     borderStyle: 'solid',
     borderRadius: '8px',
-    width: '25%',
     padding: '25px',
   },
   titleStyle: {
     fontSize: '20px',
     fontWeight: 'bold',
     textAlign: 'center',
-  }
+  },
 };
 
 
