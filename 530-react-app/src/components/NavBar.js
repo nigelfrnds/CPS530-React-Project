@@ -1,37 +1,45 @@
 import React, { Component } from 'react';
 import {
-  Link,
+  Link
 } from 'react-router-dom';
 
 class NavBar extends Component {
   render() {
     const { textStyle } = styles;
     return (
-      <nav className="navbar navbar-inverse navbar-fixed-top">
-        <div>
+      <nav className="navbar navbar-inverse bg-inverse navbar-fixed-top">
+        <div className="container">
           <div className="navbar-header">
-            <a href="/" className="navbar-brand">React-Project</a>
+            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible" aria-expanded="false">
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <Link to="/" className="navbar-brand">React-Project</Link>
           </div>
-          <ul className="nav navbar-nav">
-            <li style={textStyle}>
-              <a href="/summary">Summary</a>
-            </li>
-            <li style={textStyle}>
-              <a href="/install">Install</a>
-            </li>
-            <li style={textStyle}>
-              <a href="/tutorial">Tutorial</a>
-            </li>
-            <li style={textStyle}>
-              <a href="/result">Result</a>
-            </li>
-            <li style={textStyle}>
-              <a href="/conclusion">Conclusion</a>
-            </li>
-            <li style={textStyle}>
-              <a href="/credits">Credits</a>
-            </li>
-          </ul>
+          <div className="collapse navbar-collapse" id="collapsible">
+            <ul className="nav navbar-nav">
+              <li style={textStyle}>
+                <Link to="/summary">Summary</Link>
+              </li>
+              <li style={textStyle}>
+                <Link to="/install">Install</Link>
+              </li>
+              <li style={textStyle}>
+                <Link to="/tutorial">Tutorial</Link>
+              </li>
+              <li style={textStyle}>
+                <Link to="/result">Result</Link>
+              </li>
+              <li style={textStyle}>
+                <Link to="/conclusion">Conclusion</Link>
+              </li>
+              <li style={textStyle}>
+                <Link to="/credits">Credits</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     );

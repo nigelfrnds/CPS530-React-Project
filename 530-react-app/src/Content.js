@@ -13,19 +13,24 @@ import {
   CreditsPage,
 } from './routes';
 
+import NavBar from './components/NavBar';
+
 class Content extends Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/summary" component={SummaryPage} />
-          <Route path="/install" component={InstallPage} />
-          <Route path="/tutorial" component={TutorialPage} />
-          <Route path="/result" component={ResultPage} />
-          <Route path="/conclusion" component={ConclusionPage} />
-          <Route path="/credits" component={CreditsPage} />
-        </Switch>
+        <div>
+          <NavBar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/summary" component={SummaryPage} />
+            <Route path="/install" component={InstallPage} />
+            <Route path="/tutorial" component={TutorialPage} />
+            <Route path="/result" component={ResultPage} />
+            <Route path="/conclusion" component={ConclusionPage} />
+            <Route path="/credits" component={CreditsPage} />
+          </Switch>
+        </div>
       </Router>
     );
   }

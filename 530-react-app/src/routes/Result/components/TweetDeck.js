@@ -10,14 +10,17 @@ class TweetDeck extends Component {
         <div style={styles.titleStyle}>
           {"TweetDeck2.0"}
         </div>
-        <div>
+        <br />
+        <div style={styles.tweetContainerStyle}>
           {
             USERS.map((user,index) => {
               return (
-                <Tweet
-                  user={user}
-                  image={DEFAULT_IMAGE}
-                />
+                <div key={index} style={styles.padding}>
+                  <Tweet
+                    user={user}
+                    image={DEFAULT_IMAGE}
+                  />
+                </div>
               );
             })
           }
@@ -32,13 +35,22 @@ const styles = {
     borderWidth: '1px',
     borderStyle: 'solid',
     borderRadius: '8px',
-    width: '25%',
     padding: '25px',
   },
   titleStyle: {
     fontSize: '20px',
     fontWeight: 'bold',
     textAlign: 'center',
+  },
+  tweetContainerStyle: {
+    margin: '0 auto',
+    position: 'relative',
+    boderColor: 'red',
+    borderStyle: 'solid',
+    borderWidth: '1px',
+  },
+  padding: {
+    padding: '10px',
   }
 };
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import CodeBlock from '../../components/CodeBlock';
-import { Step1, Step2, Step3, Step4 } from './constants/Steps';
-
+import TweetDeckTut from './components/TweetDeckTut';
+import TweetTut from './components/TweetTut';
 class TutorialPage extends Component {
   render() {
     return (
@@ -21,36 +20,9 @@ class TutorialPage extends Component {
               </ul>
             </p>
           </div>
-          <div>
-            <h2>TweetDeck</h2>
-            <p>This component renders the tweets one by one, neatly inside a box container.</p>
-            <ul>
-              <li>
-                <div>
-                  <p><b>Step 1:</b> Create a file called <b>TweetDeck.js</b>, and add this line to the top of your file.</p>
-                  <CodeBlock>
-                    {Step1}
-                  </CodeBlock>
-                  <p><b>Step 2:</b> Next, {`we're`} gonna import a list of users(<b>UserList.json</b>), a default image for the user(<b>user.png</b>),
-                  and a react {`component`}(<b>Tweet.js</b>) that {`we're`} gonna make next.
-                  </p>
-                  <CodeBlock>
-                    {Step2}
-                  </CodeBlock>
-                  <p><b>Step 3:</b> Next, {`we're`} gonna import a list of users(<b>UserList.json</b>), a default image for the user(<b>user.png</b>),
-                  and a react {`component`}(<b>Tweet.js</b>) that {`we're`} gonna make next.
-                  </p>
-                  <CodeBlock>
-                    {Step3}
-                  </CodeBlock>
-                  <p><b>Step 4:</b> Now, {`we're`} gonna add some styling.</p>
-                  <CodeBlock>
-                    {Step4}
-                  </CodeBlock>
-                </div>
-              </li>
-            </ul>
-          </div>
+          <TweetDeckTut />
+          <TweetTut />
+          <br />
         </div>
       </div>
     );

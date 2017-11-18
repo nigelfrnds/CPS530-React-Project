@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import GroceryList from './components/GroceryList';
 import TweetDeck from './components/TweetDeck';
 
 class ResultPage extends Component {
   render() {
     return (
       <div className="content">
-        <div>
+        <div style={styles.containerStyle}>
           <h1>This is the Result!</h1>
           <TweetDeck />
+          <br />
         </div>
       </div>
     );
@@ -17,6 +17,7 @@ class ResultPage extends Component {
 
 const styles = {
   containerStyle: {
+    margin: '0 auto',
   },
 };
 
