@@ -2,7 +2,6 @@
   "name": "530-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://scs.ryerson.ca/~njfernan/React/",
   "dependencies": {
     "react": "^16.1.0",
     "react-dom": "^16.1.0",

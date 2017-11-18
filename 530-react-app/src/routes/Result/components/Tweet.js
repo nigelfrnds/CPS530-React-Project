@@ -29,7 +29,6 @@ const styles = {
   containerStyle: {
     borderWidth: '1px',
     borderStyle: 'solid',
-    width: '300px',
     height: '125px',
     display: 'block',
     marginTop: '10px',
