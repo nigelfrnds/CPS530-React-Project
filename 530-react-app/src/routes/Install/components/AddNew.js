@@ -3,19 +3,27 @@ import CodeBlock from '../../../components/CodeBlock';
 import { Step1, Step2, Step3, Step4 } from '../constants/Steps';
 
 
-const Install = (props) => {
+const AddNew = (props) => {
   return (
     <div id={props.id}>
       <div class="panel panel-info">
         <div class="panel-heading text-center">
-      <h1 style={{fontFamily: 'Poiret One, cursive'}}>Creating a New React Application</h1>
+      <h1 style={{fontFamily: 'Poiret One, cursive'}}>Adding React to an Existing Application</h1>
     </div>
 <div class="text-center">
 <br/>
-          <p>Alright, let's make a React app on your home computer! Where do you start?<br/><br/>
-To begin, decide where you want to save your app, and what you want to name it. In the terminal, cd to wherever you want to save your app. Use mkdir to make a new directory with your app's name. cd into your new directory.
-<br/><br/>
-Once you've done all that, type this command into your terminal (ignore the $):
+          <p>
+
+
+
+          You don’t need to rewrite your app to start using React.<br/>
+          We recommend adding React to a small part of your application, such as an individual widget, so you can see if it works well for your use case.<br/><br/>
+          While React can be used without a build pipeline, we recommend setting it up so you can be more productive. A modern build pipeline typically consists of:<br/><br/>
+          <ul style={{textAlign: 'center'}}>
+          <li>A package manager, such as Yarn or npm. It lets you take advantage of a vast ecosystem of third-party packages, and easily install or update them.</li><br/>
+          <li>A bundler, such as webpack or Browserify. It lets you write modular code and bundle it together into small packages to optimize load time.</li>
+          <li>A compiler such as Babel. It lets you write modern JavaScript code that still works in older browsers.</li>
+          </ul>
 <CodeBlock>
   {Step1}
 </CodeBlock>
@@ -32,9 +40,9 @@ Create React App doesn’t handle backend logic or databases; it just creates a 
 <br/><br/>It uses build tools like <a target="_blank" href="http://babeljs.io/">Babel</a> and <a target="_blank" href="https://webpack.js.org/">webpack</a> under the hood, but works with zero configuration.
 <br/><br/>When you’re ready to deploy to production, running npm run build will create an optimized build of your app in the build folder. You can learn more about Create React App from its <a target="_blank" href="https://github.com/facebookincubator/create-react-app#create-react-app-">README</a> and the <a target="_blank" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#table-of-contents">User Guide</a>.
 
-<br/><br/>
-</div>
 
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
 
@@ -45,4 +53,4 @@ Create React App doesn’t handle backend logic or databases; it just creates a 
   );
 };
 
-export default Install;
+export default AddNew;
