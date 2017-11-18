@@ -4,7 +4,7 @@ class InstallPage extends Component {
   render() {
     return (
       <div>
-        This is the InstallPage.
+        This is the InstallPage aye.
       </div>
     );
   }
