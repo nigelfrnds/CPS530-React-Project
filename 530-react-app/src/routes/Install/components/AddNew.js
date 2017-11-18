@@ -19,11 +19,12 @@ const AddNew = (props) => {
           You don’t need to rewrite your app to start using React.<br/>
           We recommend adding React to a small part of your application, such as an individual widget, so you can see if it works well for your use case.<br/><br/>
           While React can be used without a build pipeline, we recommend setting it up so you can be more productive. A modern build pipeline typically consists of:<br/><br/>
-          <ul style={{textAlign: 'center'}}>
-          <li>A package manager, such as Yarn or npm. It lets you take advantage of a vast ecosystem of third-party packages, and easily install or update them.</li><br/>
-          <li>A bundler, such as webpack or Browserify. It lets you write modular code and bundle it together into small packages to optimize load time.</li>
-          <li>A compiler such as Babel. It lets you write modern JavaScript code that still works in older browsers.</li>
-          </ul>
+          <strong>
+          A package manager, such as Yarn or npm. It lets you take advantage of a vast ecosystem of third-party packages, and easily install or update them.<br/><br/>
+          A bundler, such as webpack or Browserify. It lets you write modular code and bundle it together into small packages to optimize load time.<br/><br/>
+          A compiler such as Babel. It lets you write modern JavaScript code that still works in older browsers.
+        </strong>
+
 <CodeBlock>
   {Step1}
 </CodeBlock>
@@ -39,12 +40,20 @@ Soon, you will install more npm modules. package.json keeps track of the modules
 Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want.
 <br/><br/>It uses build tools like <a target="_blank" href="http://babeljs.io/">Babel</a> and <a target="_blank" href="https://webpack.js.org/">webpack</a> under the hood, but works with zero configuration.
 <br/><br/>When you’re ready to deploy to production, running npm run build will create an optimized build of your app in the build folder. You can learn more about Create React App from its <a target="_blank" href="https://github.com/facebookincubator/create-react-app#create-react-app-">README</a> and the <a target="_blank" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#table-of-contents">User Guide</a>.
-
+<br/><br/><br/>
+We recommend using <mark>Yarn</mark> or <mark>npm</mark> for managing front-end dependencies. If you’re new to package managers, <a target="_blank" href="https://yarnpkg.com/en/docs/getting-started">the Yarn documentation</a> is a good place to get started.
+<br/><br/>
+<strong> To install React with Yarn, run: </strong>
+<CodeBlock>
+  {Step3}
+</CodeBlock>
+<br/><br/>
+<strong> To install React with Npm, run: </strong>
+<CodeBlock>
+  {Step2}
+</CodeBlock>
 
 </div>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-
 
 
 
