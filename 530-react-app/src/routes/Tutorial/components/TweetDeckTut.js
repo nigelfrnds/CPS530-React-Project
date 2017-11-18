@@ -11,7 +11,7 @@ const TweetDeckTut = () => {
         <li>
           <div>
             <p><b>Step 1:</b> Create a file called <b>TweetDeck.js</b>, and add this line to the top of your file.</p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {Step1}
             </CodeBlock>
           </div>
@@ -21,7 +21,7 @@ const TweetDeckTut = () => {
             <p><b>Step 2:</b> Next, {`we're`} gonna import a static list of users(<b>UserList.json</b>), a default image for the user(<b>user.png</b>),
             and a react {`component`}(<b>Tweet.js</b>) that {`we're`} gonna make next.
             </p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {Step2}
             </CodeBlock>
           </div>
@@ -30,7 +30,7 @@ const TweetDeckTut = () => {
           <div>
             <p><b>Step 3:</b> Now, We can use these the imported data and elements to create the layout of the component.
             </p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {Step3}
             </CodeBlock>
           </div>
@@ -38,7 +38,7 @@ const TweetDeckTut = () => {
         <li>
           <div>
             <p><b>Step 4:</b> Add some styling, and boom {`we're`} done.</p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {Step4}
             </CodeBlock>
           </div>

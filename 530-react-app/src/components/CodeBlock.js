@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 
 class CodeBlock extends Component {
   render() {
+    const { lang } = this.props;
     const { contentStyle } = styles;
     return (
       <div>
           <pre className="prettyprint" style={contentStyle}>
-            <code className="language-js">
+            <code className={`language-${lang}`}>
               {this.props.children.toString()}
             </code>
           </pre>

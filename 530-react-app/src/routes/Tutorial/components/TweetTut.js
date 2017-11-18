@@ -11,7 +11,7 @@ const TweetTut = () => {
         <li>
           <div>
             <p><b>Step 1:</b> Create a file called <b>Tweet.js</b>, and add this line to the top of your file.</p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {Step1}
             </CodeBlock>
           </div>
@@ -19,7 +19,7 @@ const TweetTut = () => {
         <li>
           <div>
             <p><b>Step 2:</b> Next, {`We're`} gonna create a basic layout for the component, as well as extract values from the props.</p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {StepT2}
             </CodeBlock>
           </div>
@@ -27,7 +27,7 @@ const TweetTut = () => {
         <li>
           <div>
             <p><b>Step 3:</b> Now, {`We're`} gonna improve the layout, and add some styling to get a finished product.</p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {StepT3}
             </CodeBlock>
           </div>
@@ -35,7 +35,7 @@ const TweetTut = () => {
         <li>
           <div>
             <p><b>Step 4:</b> Finally, add some styling and {`we're`} done.</p>
-            <CodeBlock>
+            <CodeBlock lang={'js'}>
               {StepT4}
             </CodeBlock>
           </div>
