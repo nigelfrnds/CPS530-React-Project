@@ -33,7 +33,7 @@ class GroceryList extends Component {
     return (
       <div className="panel panel-primary">
         <div className="panel-heading" style={{ textAlign: 'center' }}>
-          {title.toUpperCase()}
+          {"GroceryList"}
         </div>
         <div className="panel-body">
           <div>
@@ -49,6 +49,9 @@ class GroceryList extends Component {
             </form>
           </div>
           <br />
+          <div>
+            <h3>{title}</h3>
+          </div>
           <ListContainer items={items} />
         </div>
       </div>
