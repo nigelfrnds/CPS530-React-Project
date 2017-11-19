@@ -5,13 +5,17 @@ const Tutorial = (props) => (
 <div class="panel panel-info text-center">
 
 <div class="panel-heading">
-  <h1 style={{fontFamily: 'Poiret One, cursive'}}>Tutorial Page</h1>
+  <h1 style={{fontFamily: 'Poiret One, cursive'}}>Nigel Fernandes</h1>
 </div>
 <p style={{ fontSize: '15px', fontFamily: 'Raleway'}}>
   <br/>
-  Nigel Fernandes
-  <br />
   <img style={{height: '200px'}} src={require('../nigel.jpg')} />
+  <br/> <br/>
+  Set up React routes and path. <br/>
+  Worked on Tutorial and Results Page
+
+  <br />
+
 </p>
 </div>
 </div>

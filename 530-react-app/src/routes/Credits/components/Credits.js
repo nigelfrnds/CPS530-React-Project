@@ -9,9 +9,10 @@ const Credits = (props) => (
 </div>
 <p style={{ fontSize: '15px', fontFamily: 'Raleway'}}>
   <br/>
-  Malcolm Gomes
-  <br />
   <img style={{height: '200px'}} src={require('../malcolm.jpg')} />
+  <br /> <br />
+  Worked on Credits Page
+  <br />
 </p>
 </div>
 </div>
