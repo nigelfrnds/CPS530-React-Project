@@ -39,8 +39,8 @@ class Content extends Component {
 class Home extends Component {
   render() {
     return (
-      <div className="content Title">
-        Welcome to our Presentation!
+      <div className="content">
+        This is the homepage.
       </div>
     );
   }
