@@ -8,7 +8,6 @@ class SummaryPage extends Component {
 
   render() {
     return (
-<<<<<<< HEAD
       <div class="container">
         <div class="panel panel-info">
           <div class="panel-heading text-center">
@@ -77,11 +76,6 @@ class SummaryPage extends Component {
             <div><a href="https://github.com/cure53/DOMPurify/wiki/Security-Goals-&-Threat-Model">Source.</a></div>
           </div>
         </div>
-=======
-      <div className="content">
-        This is the SummaryPage Page.
-        <button onClick={this.doSomething}>press me</button>
->>>>>>> master
       </div>
     );
   }
