@@ -6,8 +6,8 @@ class TutorialPage extends Component {
     return (
       <div className="content">
         <div className="panel-group">
-          <div className="panel panel-info">
-            <div className="panel-heading text-center">
+          <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+            <div className="panel-heading text-center" style={{backgroundColor: '#282C34', color:'white'}}>
               <h2>{`What We're Gonna Build`}</h2>
             </div>
             <div className="panel-body">

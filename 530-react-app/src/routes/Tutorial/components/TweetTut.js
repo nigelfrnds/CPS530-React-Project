@@ -4,8 +4,8 @@ import { Step1, StepT2, StepT3, StepT4 } from '../constants/Steps';
 
 const TweetTut = () => {
   return (
-    <div className="panel panel-info">
-      <div className="panel-heading text-center">
+    <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+      <div className="panel-heading text-center" style={{backgroundColor: '#282C34', color:'white'}}>
         <h2>Tweet</h2>
       </div>
       <div className="panel-body">

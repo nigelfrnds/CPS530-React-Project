@@ -48,7 +48,7 @@ class Home extends Component {
             <div className="text-center" style={{backgroundColor: '#282C34'}}>
               <h1 style={{fontFamily: 'Roboto', color: '#60D7F7', fontSize:'100px'}}> <strong>REACT</strong></h1>
               <h2 style={{fontFamily: 'Roboto', color: 'white', fontSize:'30px'}}> A JavaScript library for building user interfaces</h2> <br/>
-              <a style={{backgroundColor: '#60D7F7', padding: '15px 20px', border: 'none', color: 'black', fontSize: '15px'}} href='/summary'>Get Started</a>
+              <a className="shake-freeze" style={{backgroundColor: '#60D7F7', padding: '15px 20px', border: 'none', color: 'black', fontSize: '15px'}} href='/summary'>Get Started</a>
             </div>
 
 
@@ -66,7 +66,7 @@ class Home extends Component {
     <br/>
     <br/>
 
-<strong>Teams</strong>: Minimum 4 students, maximum 6 students
+<strong>Teams: Saad Iqbal, Nigel Fernandes, Jared Rand, Malcolm Gomes, and Tenzin Kenken</strong>
     <br/>  <br/>
 
 Pick a framework or CMS of your choice (list below - one framework/CMS per team - will be on a first claimed basis). You create a website that presents the framework/CMS in a concise fashion as a tutorial.
