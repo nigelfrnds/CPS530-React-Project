@@ -6,11 +6,11 @@ import { Step1, Step2, Step3, Step4 } from '../constants/Steps';
 const Install = (props) => {
   return (
     <div id={props.id}>
-      <div class="panel panel-info">
-        <div class="panel-heading text-center">
+      <div className="panel panel-info">
+        <div className="panel-heading text-center">
       <h1 style={{fontFamily: 'Poiret One, cursive'}}>Creating a New React Application</h1>
     </div>
-<div class="text-center">
+<div className="text-center">
 <br/>
           <p>Alright, let's make a React app on your home computer! Where do you start?<br/><br/>
 To begin, decide where you want to save your app, and what you want to name it. In the terminal, cd to wherever you want to save your app. Use mkdir to make a new directory with your app's name. cd into your new directory.
