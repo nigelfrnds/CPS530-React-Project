@@ -40,7 +40,7 @@ class Home extends Component {
   render() {
     return (
       <div className="content Title">
-        Welcome to our Presentation!
+        Welcome To Our Presentation!
       </div>
     );
   }

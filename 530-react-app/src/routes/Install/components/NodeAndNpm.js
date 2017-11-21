@@ -2,9 +2,9 @@ import React from 'react';
 
 const NodeAndNpm = (props) => (
 <div>
-<div class="panel panel-info text-center">
+<div className="panel panel-info text-center">
 
-<div class="panel-heading">
+<div className="panel-heading">
   <h1 style={{fontFamily: 'Poiret One, cursive'}}>Node and NPM</h1>
 </div>
 
@@ -14,7 +14,7 @@ const NodeAndNpm = (props) => (
   <br />
   One of the main packages you need to download are <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/"><mark>npm</mark></a> and <a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/about/"><mark>node</mark></a>.
   <br /><br />
-  <a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/"> Install NPM and Node </a>
+  <a className="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/"> Install NPM and Node </a>
 </p>
 </div>
 </div>

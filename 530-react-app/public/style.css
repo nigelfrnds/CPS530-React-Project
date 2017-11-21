@@ -1,4 +1,5 @@
 .content {
+  font-family: 'Roboto';
 }
 
 .Title {
@@ -15,7 +16,6 @@
   border: 15px solid #bdc3c7;
   width: 85%;
 }
-
 
 /* Pretty printing styles. Used with prettify.js. */
 /* Vim sunburst theme by David Leibovic */

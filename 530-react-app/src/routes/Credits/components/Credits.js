@@ -5,11 +5,11 @@ const Credits = (props) => (
 <div class="panel panel-info text-center">
 
 <div class="panel-heading">
-  <h1 style={{fontFamily: 'Poiret One, cursive'}}>Credits</h1>
+  <h1>Malcolm Gomes</h1>
 </div>
-<p style={{ fontSize: '15px', fontFamily: 'Raleway'}}>
+<p style={{ fontSize: '20px' }}>
   <br/>
-  <img style={{height: '200px'}} src={require('../malcolm.jpg')} alt={"profile_pic"} />
+  <img style={{height: '200px', borderRadius: '8px' }} src={require('../malcolm.jpg')} alt="profil_pic"/>
   <br /> <br />
   Worked on Credits Page
   <br />

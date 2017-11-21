@@ -5,11 +5,11 @@ const Tutorial = (props) => (
 <div class="panel panel-info text-center">
 
 <div class="panel-heading">
-  <h1 style={{fontFamily: 'Poiret One, cursive'}}>Nigel Fernandes</h1>
+  <h1>Nigel Fernandes</h1>
 </div>
-<p style={{ fontSize: '15px', fontFamily: 'Raleway'}}>
+<p style={{ fontSize: '20px' }}>
   <br/>
-  <img style={{height: '200px'}} src={require('../nigel.jpg')} alt={"profile_pic"} />
+  <img style={{height: '200px', borderRadius: '8px' }} src={require('../nigel.jpg')} alt="profil_pic"/>
   <br/> <br/>
   Set up React routes and path. <br/>
   Worked on Tutorial and Results Page

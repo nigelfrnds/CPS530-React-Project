@@ -5,11 +5,11 @@ const Install = (props) => (
 <div class="panel panel-info text-center">
 
 <div class="panel-heading">
-  <h1 style={{fontFamily: 'Poiret One, cursive'}}>Saad Iqbal</h1>
+  <h1>Saad Iqbal</h1>
 </div>
-<p style={{ fontSize: '15px', fontFamily: 'Raleway'}}>
+<p style={{ fontSize: '20px' }}>
   <br />
-  <img style={{height: '200px'}} src={require('../saad.jpg')} alt={"profile_pic"} />
+  <img style={{height: '200px', borderRadius: '8px' }} src={require('../saad.jpg')} alt="profil_pic"/>
   <br/> <br />
   Helped other group members set up and learn React <br/>
   Created styling for different pages of our React website <br/>
