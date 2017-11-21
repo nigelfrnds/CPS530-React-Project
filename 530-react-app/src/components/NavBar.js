@@ -16,7 +16,7 @@ class NavBar extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <Link to="/" className="navbar-brand">React-Project</Link>
+            <Link to="/" className="navbar-brand"><strong><img style={{width:'20px', height:'20px'}} align="left" src="https://cdn.worldvectorlogo.com/logos/react-1.svg" alt="react-logo"/><a style={{color:'#60D7F7', fontSize: '20px'}}>React</a></strong></Link>
           </div>
           <div className="collapse navbar-collapse" id="collapsible">
             <ul className="nav navbar-nav">

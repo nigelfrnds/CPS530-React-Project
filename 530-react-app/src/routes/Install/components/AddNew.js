@@ -6,9 +6,9 @@ import { Step1, Step2, Step3 } from '../constants/Steps';
 const AddNew = (props) => {
   return (
     <div id={props.id}>
-      <div className="panel panel-info">
-        <div className="panel-heading text-center">
-      <h1 style={{fontFamily: 'Poiret One, cursive'}}>Adding React to an Existing Application</h1>
+      <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+        <div className="panel-heading text-center" style={{backgroundColor: '#282C34'}}>
+      <h1 style={{fontFamily: 'Poiret One, cursive', color:'white'}}><strong>Adding React to an Existing Application</strong></h1>
     </div>
 <div className="text-center">
 <br/>
@@ -25,7 +25,7 @@ const AddNew = (props) => {
           A compiler such as Babel. It lets you write modern JavaScript code that still works in older browsers.
         </strong>
 
-<CodeBlock lang={"bsh"}>
+<CodeBlock>
   {Step1}
 </CodeBlock>
 <br/>
@@ -44,12 +44,12 @@ Create React App doesn’t handle backend logic or databases; it just creates a 
 We recommend using <mark>Yarn</mark> or <mark>npm</mark> for managing front-end dependencies. If you’re new to package managers, <a target="_blank" rel="noopener noreferrer" href="https://yarnpkg.com/en/docs/getting-started">the Yarn documentation</a> is a good place to get started.
 <br/><br/>
 <strong> To install React with Yarn, run: </strong>
-<CodeBlock lang={"bsh"}>
+<CodeBlock>
   {Step3}
 </CodeBlock>
 <br/><br/>
 <strong> To install React with Npm, run: </strong>
-<CodeBlock lang={"bsh"}>
+<CodeBlock>
   {Step2}
 </CodeBlock>
 

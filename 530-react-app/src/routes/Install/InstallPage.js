@@ -8,10 +8,15 @@ class InstallPage extends Component {
   render() {
     return (
       <div className="content">
-        <NodeAndNpm />
-        <Installation />
-        <Install id="creating-a-new-application"/>
-        <AddNew id="adding-to-existing-application" />
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+      <NodeAndNpm />
+      <Installation />
+      <Install id="creating-a-new-application"/>
+      <AddNew id="adding-to-existing-application" />
+
       </div>
     );
   }

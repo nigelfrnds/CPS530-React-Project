@@ -5,9 +5,9 @@ class ResultPage extends Component {
   render() {
     return (
       <div className="content">
-        <div className="panel panel-info" style={styles.containerStyle}>
-          <div className="panel-heading text-center">
-            <h1>This is the Result!</h1>
+        <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+          <div className="panel-heading text-center" style={{backgroundColor: '#282C34'}}>
+            <h1 style={{color:'white'}}>This is the Result!</h1>
           </div>
           <div className="panel-body">
             <TweetDeck />
@@ -17,11 +17,5 @@ class ResultPage extends Component {
     );
   }
 }
-
-const styles = {
-  containerStyle: {
-    margin: '0 auto',
-  },
-};
 
 export { ResultPage };

@@ -6,9 +6,9 @@ import { Step1 } from '../constants/Steps';
 const Install = (props) => {
   return (
     <div id={props.id}>
-      <div className="panel panel-info">
-        <div className="panel-heading text-center">
-      <h1 style={{fontFamily: 'Poiret One, cursive'}}>Creating a New React Application</h1>
+      <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+        <div className="panel-heading text-center" style={{backgroundColor: '#282C34'}}>
+      <h1 style={{fontFamily: 'Poiret One, cursive' , color:'white'}}><strong>Creating a New React Application</strong></h1>
     </div>
 <div className="text-center">
 <br/>
@@ -16,7 +16,7 @@ const Install = (props) => {
 To begin, decide where you want to save your app, and what you want to name it. In the terminal, cd to wherever you want to save your app. Use mkdir to make a new directory with your app's name. cd into your new directory.
 <br/><br/>
 Once you've done all that, type this command into your terminal (ignore the $):
-<CodeBlock lang={"bsh"}>
+<CodeBlock>
   {Step1}
 </CodeBlock>
 <br/>
