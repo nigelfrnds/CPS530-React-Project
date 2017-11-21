@@ -45,9 +45,6 @@ const styles = {
   tweetContainerStyle: {
     margin: '0 auto',
     position: 'relative',
-    boderColor: 'red',
-    borderStyle: 'solid',
-    borderWidth: '1px',
   },
   padding: {
     padding: '10px',
