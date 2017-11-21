@@ -4,8 +4,8 @@ import { Step1, Step2, Step3, Step4 } from '../constants/Steps';
 
 const TweetDeckTut = () => {
   return (
-    <div className="panel panel-info">
-      <div className="panel-heading text-center">
+    <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+      <div className="panel-heading text-center" style={{backgroundColor: '#282C34', color:'white'}}>
         <h2>TweetDeck</h2>
       </div>
       <div className="panel-body">

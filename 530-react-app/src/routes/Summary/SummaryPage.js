@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class SummaryPage extends Component {
   render() {
     return (
-      <div className="content">
-        <div className="panel panel-info">
-          <div className="panel-heading text-center">
-            <h1>React.js: A Summary Snapshot</h1>
+      <div id="SUMMARY" className="content">
+        <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+          <div className="panel-heading text-center" style={{backgroundColor: '#282C34'}}>
+            <h1 style={{color:'white', fontFamily:'Roboto'}}>React.js: A Summary Snapshot</h1>
           </div>
           <div className="panel-body">
             <div>
