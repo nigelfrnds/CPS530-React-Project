@@ -6,9 +6,9 @@ import { Step1, Step2, Step3, Step4 } from '../constants/Steps';
 const AddNew = (props) => {
   return (
     <div id={props.id}>
-      <div className="panel panel-info">
-        <div className="panel-heading text-center">
-      <h1 style={{fontFamily: 'Poiret One, cursive'}}>Adding React to an Existing Application</h1>
+      <div className="panel panel-info" style={{borderColor: '#282C34'}}>
+        <div className="panel-heading text-center" style={{backgroundColor: '#282C34'}}>
+      <h1 style={{fontFamily: 'Poiret One, cursive', color:'white'}}><strong>Adding React to an Existing Application</strong></h1>
     </div>
 <div className="text-center">
 <br/>

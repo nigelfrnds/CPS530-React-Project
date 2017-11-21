@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class SummaryPage extends Component {
   render() {
     return (
-      <div className="content">
+      <div id="SUMMARY" className="content">
         <div className="panel panel-info">
           <div className="panel-heading text-center">
             <h1>React.js: A Summary Snapshot</h1>

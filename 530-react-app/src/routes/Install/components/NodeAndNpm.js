@@ -2,10 +2,10 @@ import React from 'react';
 
 const NodeAndNpm = (props) => (
 <div>
-<div class="panel panel-info text-center">
+<div class="panel panel-info text-center" style={{borderColor: '#282C34'}}>
 
-<div class="panel-heading">
-  <h1 style={{fontFamily: 'Poiret One, cursive'}}>Node and NPM</h1>
+<div class="panel-heading" style={{backgroundColor: '#282C34'}}>
+  <h1 style={{fontFamily: 'Poiret One, cursive', color:'white'}}><strong>Node and NPM</strong></h1>
 </div>
 
 <p style={{ fontSize: '15px', fontFamily: 'Raleway'}}>

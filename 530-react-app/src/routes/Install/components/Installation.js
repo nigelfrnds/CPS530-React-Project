@@ -2,10 +2,10 @@ import React from 'react';
 
 const Installation = (props) => (
   <div>
-    <div className="panel panel-info text-center">
+    <div className="panel panel-info text-center" style={{borderColor: '#282C34'}}>
       <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" />
-    <div className="panel-heading">
-      <h1 style={{fontFamily: 'Poiret One, cursive'}}>Installation</h1>
+    <div className="panel-heading" style={{backgroundColor: '#282C34'}}>
+      <h1 style={{fontFamily: 'Poiret One, cursive', color:'white'}}><strong>Installation</strong></h1>
     </div>
     <p style={{ fontSize: '15px', fontFamily: 'Raleway'}}>
             <br/>
